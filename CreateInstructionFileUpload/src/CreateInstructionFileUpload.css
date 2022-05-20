@@ -1,0 +1,45 @@
+div.CreateInstructionFileUpload div.section
+{
+    padding: 0 15px;
+}
+
+div.CreateInstructionFileUpload div.section > h5
+{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--color-primary);
+    margin: 0 -15px;
+    padding: 0;
+}
+
+div.CreateInstructionFileUpload div.section > div.form-group
+{
+    margin: 15px 0;
+    padding: 0;
+}
+
+div.CreateInstructionFileUpload div.section > div.form-group > label,
+div.CreateInstructionFileUpload div.section > div.form-group > input
+{
+    margin: 0;
+}
+
+div.CreateInstructionFileUpload div.section > div.form-group > div.file-list
+{
+    padding: 15px;
+    border: 1px solid var(--color-grey-light);
+}
+
+div.CreateInstructionFileUpload div.section > div.form-group > div.file-list > div.the-list
+{
+    margin-bottom: 15px;
+}
+div.CreateInstructionFileUpload div.section > div.form-group > div.file-list > div.the-list:empty
+{
+    margin-bottom: 0;
+}
+
+div.CreateInstructionFileUpload div.section > div.form-group > div.file-list > div.the-list > div.a-file
+{
+    padding: 2px 0px;
+}

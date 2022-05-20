@@ -1,0 +1,38 @@
+{
+    "id": "CreateInstructionFileUpload",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": true,
+        "allowInSharedoPortalDesigner": true,
+        "title": "Sample:CreateInstructionFileUpload",
+        "icon": "fa-code",
+        "description": "Sample widget that allows user to select or drag/drop files onto a form, create an instruction and upload those files to it.",
+        "categories":
+        [
+            "Samples:Widgets",
+            "Samples:API"
+        ],
+        "isConfigurable": false
+    },
+    "scripts":
+    [
+        "/_ideFiles/CreateInstructionFileUpload/agent.js",
+        "/_ideFiles/CreateInstructionFileUpload/CreateInstructionFileUpload.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/CreateInstructionFileUpload/CreateInstructionFileUpload.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/CreateInstructionFileUpload/CreateInstructionFileUpload.html"
+    ],
+    "menuTemplates":
+    [
+        "/_ideFiles/CreateInstructionFileUpload/CreateInstructionFileUploadMenu.html"
+    ],
+    "components":
+    [
+    ]
+}
