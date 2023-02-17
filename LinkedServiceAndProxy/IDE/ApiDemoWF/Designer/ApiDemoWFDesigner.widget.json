@@ -1,0 +1,31 @@
+{
+    "id":  "ApiDemoWFDesigner", 
+    "priority": 6000, 
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": false
+    },
+    "scripts":
+    [
+        "/_ideFiles/ApiDemoWF/designer/ApiDemoWFDesigner.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/ApiDemoWF/designer/ApiDemoWFDesigner.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/ApiDemoWF/designer/ApiDemoWFDesigner.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+        "Sharedo.Core.Case.Components.SharedoTypePicker",
+        "Sharedo.UI.Framework.Components.Toggle",
+        "Sharedo.Core.Case.WorkflowEditor.WFAssignmentComponent",
+        "Sharedo.Core.Case.WorkflowEditor.WFPhaseOutletComponent"
+    ]
+}

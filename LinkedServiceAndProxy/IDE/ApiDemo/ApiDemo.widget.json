@@ -1,0 +1,37 @@
+{
+    "id": "ApiDemo",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": true,
+        "allowInSharedoPortalDesigner": true,
+        "title": "TODO: Name widget ApiDemo",
+        "icon": "fa-cog",
+        "description": "TODO: Describe your widget",
+        "categories":
+        [
+            "TODO Categorise ApiDemo"
+        ],
+        "isConfigurable": true,
+        "configurationWidget": "ApiDemoDesigner"
+    },
+    "scripts":
+    [
+        "/_ideFiles/ApiDemo/ApiDemo.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/ApiDemo/ApiDemo.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/ApiDemo/ApiDemo.html"
+    ],
+    "menuTemplates":
+    [
+        "/_ideFiles/ApiDemo/ApiDemoMenu.html"
+    ],
+    "components":
+    [
+    ]
+}

@@ -1,0 +1,26 @@
+<div class="ApiDemo">
+
+    <table>
+        <thead>
+            <tr>
+                <th>Folio</th>
+                <th>Delta</th>
+            </tr>
+        </thead>
+        <tbody data-bind="foreach:model.rows">
+            <tr>
+                <td data-bind="text:folio"></td>
+                <td data-bind="text:delta"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div>
+        Balance: <span data-bind="text:model.balance"></span>
+    </div>
+    
+    
+    <div class="text-center">
+        <button class="btn btn-primary" data-bind="click:addRow">Add new</button>
+    </div>
+</div>

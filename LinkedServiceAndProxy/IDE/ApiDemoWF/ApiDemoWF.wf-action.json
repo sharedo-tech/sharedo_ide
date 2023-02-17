@@ -1,0 +1,30 @@
+{
+    // The system name for the type of node
+    "systemName": "ApiDemoWF",
+
+    // The category to show this in the toolbox
+    "category": "Uncategorised IDE actions",
+
+    // The display info
+    "name": "TODO: Name ApiDemoWF",
+    "icon": "fa-cog",
+    "description": "TODO: Describe ApiDemoWF",
+
+    // The widget used to configure this node type
+    "configWidget": "ApiDemoWFDesigner",
+
+    // Any other scripts to include that are used by the factory
+    "factoryIncludes": [],
+
+    // The factory for creating a node of this type
+    "factoryScript": "/_ideFiles/ApiDemoWF/ApiDemoWF-factory.js",
+
+    // The template for generating the code for this type
+    "templateScript": "/_ideFiles/ApiDemoWF/ApiDemoWF-template.js",
+
+    // Any additional helper scripts to load and run before the main generated script runs
+    "helperScripts":  [],
+
+    // Declare any required variable types your step expects to use - e.g. /Identifier or /Identifier/Ods Entity Identifier
+    "requiredTypes":  [] 
+}

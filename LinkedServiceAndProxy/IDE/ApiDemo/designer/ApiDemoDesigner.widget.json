@@ -1,0 +1,27 @@
+{
+    "id": "ApiDemoDesigner",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": false
+    },
+    "scripts":
+    [
+        "/_ideFiles/ApiDemo/designer/ApiDemoDesigner.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/ApiDemo/designer/ApiDemoDesigner.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/ApiDemo/designer/ApiDemoDesigner.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}
