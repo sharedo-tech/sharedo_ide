@@ -9,6 +9,6 @@ This repository contains sample code for use within the sharedo IDE to create ne
 
 ### Public API
 - [Create instruction file upload widget](CreateInstructionFileUpload%5Creadme.md)
-
+- [Using the linked service proxy](LinkedServiceAndProxy%5Creadme.md)
 
 *More is coming!*
