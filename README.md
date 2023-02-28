@@ -5,10 +5,10 @@ This repository contains sample code for use within the sharedo IDE to create ne
 ## Sample index by topic
 
 ### Widgets
-- [Create instruction file upload widget](CreateInstructionFileUpload%5Creadme.md)
+- [Create instruction file upload widget](CreateInstructionFileUpload/readme.md)
 
 ### Public API
-- [Create instruction file upload widget](CreateInstructionFileUpload%5Creadme.md)
-- [Using the linked service proxy](LinkedServiceAndProxy%5Creadme.md)
+- [Create instruction file upload widget](CreateInstructionFileUpload/readme.md)
+- [Using the linked service proxy](LinkedServiceAndProxy/readme.md)
 
 *More is coming!*
