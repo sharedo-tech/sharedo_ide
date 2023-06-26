@@ -1,0 +1,23 @@
+<div class="AspectDemos-Aspect02_CustomForm">
+
+    <div data-bind="widgetChrome:{icon:'fa-cog', title:'Risk'}">
+
+        <div class="form-group">
+            <label>How much risk is involved? (<span data-bind="text:model.risk"></span>/10)</label>
+            <input type="range" min=0 max=10 data-bind="textInput:model.risk"/>
+        </div>
+
+        <div class="form-group">
+            <label>How likely is this to happen? (<span data-bind="text:model.probability"></span>/10)</label>
+            <input type="range" min=0 max=10 data-bind="textInput:model.probability"/>
+        </div>
+        
+        <div class="mt-4 alert text-center" data-bind="css:totalRiskCss">
+            <div><b><span data-bind="text:totalRisk"></span>%</b></div>
+            <div data-bind="text:totalRiskMessage"></div>
+        </div>
+
+    </div>
+
+</div>
+

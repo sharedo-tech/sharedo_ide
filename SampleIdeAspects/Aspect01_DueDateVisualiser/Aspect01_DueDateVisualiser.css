@@ -1,0 +1,53 @@
+div.AspectDemos-Aspect01_DueDateVisualiser
+{
+}
+
+div.AspectDemos-Aspect01_DueDateVisualiser div.timeYet,
+div.AspectDemos-Aspect01_DueDateVisualiser div.dueWithinTheHour,
+div.AspectDemos-Aspect01_DueDateVisualiser div.dueNow,
+div.AspectDemos-Aspect01_DueDateVisualiser div.overdue
+{
+    font-size: 2rem;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: #eee;
+    padding: 15px;
+    text-align: center;
+    margin: -15px -15px 0 -15px;
+}
+
+div.AspectDemos-Aspect01_DueDateVisualiser div.timeYet
+{
+    border-color: #99d699;
+    background-color: #d5ffd5;
+    color: #38ae38;
+}
+
+div.AspectDemos-Aspect01_DueDateVisualiser div.dueWithinTheHour
+{
+    border-color: #916102;
+    background-color: #ffaa00;
+    color: #fff9cb;
+}
+
+div.AspectDemos-Aspect01_DueDateVisualiser div.dueNow
+{
+    border-color: #ff0037;
+    background-color: #ff3462;
+    color: #ffd7df;
+    
+    animation: blinker 1s infinite;
+}
+
+@keyframes blinker {
+    from { background-color: #ff3462; color: #ffd7df; }
+    50% { background-color: #ff0000; color: #fff; }
+    to { background-color: #ff3462; color: #ffd7df; }
+}
+
+div.AspectDemos-Aspect01_DueDateVisualiser div.overdue
+{
+    border-color: #ee0000;
+    background-color: #ff0000;
+    color: #fff;
+}

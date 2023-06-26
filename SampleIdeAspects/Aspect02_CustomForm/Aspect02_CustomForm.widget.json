@@ -1,0 +1,37 @@
+{
+    "id": "AspectDemos.Aspect02_CustomForm",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": false,
+        "allowAspectAdapter": true,  
+        "title": "Custom risk form",
+        "icon": "fa-cog",
+        "description": "Captures risk using a custom UI over a form builder definition",
+        "categories": 
+        [
+        ],
+        "isConfigurable": true,
+        "configurationWidget": null,
+        "defaultConfigurationJson": { "disableSaveThreshold":30 } 
+    },
+    "scripts":
+    [
+        "/_ideFiles/AspectDemos/Aspect02_CustomForm/Aspect02_CustomForm.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/AspectDemos/Aspect02_CustomForm/Aspect02_CustomForm.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/AspectDemos/Aspect02_CustomForm/Aspect02_CustomForm.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}

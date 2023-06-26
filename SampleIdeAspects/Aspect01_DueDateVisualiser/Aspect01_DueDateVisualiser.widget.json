@@ -1,0 +1,37 @@
+{
+    "id": "AspectDemos.Aspect01_DueDateVisualiser",
+    "priority": 6000,
+    "designer":
+    {
+        "allowInPortalDesigner": false,
+        "allowInSharedoPortalDesigner": false,
+        "allowAspectAdapter": true,  
+        "title": "Due date visualiser",
+        "icon": "fa-cog",
+        "description": null,
+        "categories": 
+        [
+        ],
+        "isConfigurable": false,
+        "configurationWidget": null,
+        "defaultConfigurationJson": { } 
+    },
+    "scripts":
+    [
+        "/_ideFiles/AspectDemos/Aspect01_DueDateVisualiser/Aspect01_DueDateVisualiser.js"
+    ],
+    "styles":
+    [
+        "/_ideFiles/AspectDemos/Aspect01_DueDateVisualiser/Aspect01_DueDateVisualiser.css"
+    ],
+    "templates":
+    [
+        "/_ideFiles/AspectDemos/Aspect01_DueDateVisualiser/Aspect01_DueDateVisualiser.html"
+    ],
+    "menuTemplates":
+    [
+    ],
+    "components":
+    [
+    ]
+}
